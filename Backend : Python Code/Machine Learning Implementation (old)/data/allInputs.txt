@@ -1,0 +1,4 @@
+filenames, isAsthma
+testing\inputTests\testBreathInput1.txt, 1
+testing\inputTests\testBreathInput2.txt, 0
+testing\inputTests\testBreathInput3.txt, 1
