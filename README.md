@@ -1,7 +1,8 @@
 # Synopsys Silicon Valley Championship
 
 ## Asthma Aid
-**Asthma diagnosis and progression tracking through the use of non-intrusive wearable technology and respiratory analysis.**
+**Grand Prize Student Award Recipients**
+*Asthma diagnosis and progression tracking through the use of non-intrusive wearable technology and respiratory analysis.*
 
 [Link to Engineering Notebook](docs/engineeringNotebook.pdf)
 
@@ -65,8 +66,6 @@
 <img src="docs/deviceImageAngle1.png" width="500">
 
 <img src="docs/deviceImageAngle2.png" width="500">
-
-**Grand Prize Student Award Recipients**
 
 ## Contributors
 - **Pranav Eranki** - Python / Notebook 
