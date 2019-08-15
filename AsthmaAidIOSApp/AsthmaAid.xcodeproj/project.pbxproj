@@ -1,0 +1,495 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D53E3AB522374E2B009D2A73 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3AB422374E2B009D2A73 /* Constants.swift */; };
+		D53E3AB722375A04009D2A73 /* DataCaptureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D53E3AB622375A04009D2A73 /* DataCaptureTest.swift */; };
+		D567E269222FB970001677AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567E268222FB970001677AC /* AppDelegate.swift */; };
+		D567E26E222FB970001677AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D567E26C222FB970001677AC /* Main.storyboard */; };
+		D567E271222FB970001677AC /* AsthmaAid.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D567E26F222FB970001677AC /* AsthmaAid.xcdatamodeld */; };
+		D567E273222FB972001677AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D567E272222FB972001677AC /* Assets.xcassets */; };
+		D567E276222FB972001677AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D567E274222FB972001677AC /* LaunchScreen.storyboard */; };
+		D56D47352238669B00328F9C /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D47342238669B00328F9C /* PrimaryButton.swift */; };
+		D56D4737223867A100328F9C /* SecondaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D4736223867A100328F9C /* SecondaryButton.swift */; };
+		D56D473B223868D100328F9C /* OnLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D473A223868D000328F9C /* OnLoad.swift */; };
+		D56D473D2238821700328F9C /* LoginStudent.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D473C2238821700328F9C /* LoginStudent.swift */; };
+		D56D473F2238879100328F9C /* StudentRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56D473E2238879100328F9C /* StudentRegister.swift */; };
+		D59D53F5223450FE0082250C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D59D53F4223450FE0082250C /* GoogleService-Info.plist */; };
+		D59D53F722347B7C0082250C /* Background.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59D53F622347B7C0082250C /* Background.swift */; };
+		D5CED6DF223ACF0F00B490EF /* LoginDoctor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CED6DE223ACF0F00B490EF /* LoginDoctor.swift */; };
+		D5CED6E1223AD05200B490EF /* DoctorDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CED6E0223AD05200B490EF /* DoctorDashboard.swift */; };
+		D5CED6E3223AD0BA00B490EF /* DoctorRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CED6E2223AD0BA00B490EF /* DoctorRegister.swift */; };
+		DE20D37504501EE0E8A06E9E /* Pods_AsthmaAid.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED66D55C95AFCE9B67C18A04 /* Pods_AsthmaAid.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8F2D268D0E90F80E0A4713B6 /* Pods-AsthmaAid.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsthmaAid.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AsthmaAid/Pods-AsthmaAid.debug.xcconfig"; sourceTree = "<group>"; };
+		9688FC56AE8566D311E37D0B /* Pods-AsthmaAid.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AsthmaAid.release.xcconfig"; path = "Pods/Target Support Files/Pods-AsthmaAid/Pods-AsthmaAid.release.xcconfig"; sourceTree = "<group>"; };
+		D53E3AB422374E2B009D2A73 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D53E3AB622375A04009D2A73 /* DataCaptureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataCaptureTest.swift; sourceTree = "<group>"; };
+		D567E265222FB970001677AC /* AsthmaAid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsthmaAid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D567E268222FB970001677AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D567E26D222FB970001677AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D567E270222FB970001677AC /* AsthmaAid.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AsthmaAid.xcdatamodel; sourceTree = "<group>"; };
+		D567E272222FB972001677AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D567E275222FB972001677AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D567E277222FB972001677AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D56D47342238669B00328F9C /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		D56D4736223867A100328F9C /* SecondaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondaryButton.swift; sourceTree = "<group>"; };
+		D56D473A223868D000328F9C /* OnLoad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnLoad.swift; sourceTree = "<group>"; };
+		D56D473C2238821700328F9C /* LoginStudent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginStudent.swift; sourceTree = "<group>"; };
+		D56D473E2238879100328F9C /* StudentRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRegister.swift; sourceTree = "<group>"; };
+		D59D53F4223450FE0082250C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D59D53F622347B7C0082250C /* Background.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Background.swift; sourceTree = "<group>"; };
+		D5CED6DE223ACF0F00B490EF /* LoginDoctor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginDoctor.swift; sourceTree = "<group>"; };
+		D5CED6E0223AD05200B490EF /* DoctorDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorDashboard.swift; sourceTree = "<group>"; };
+		D5CED6E2223AD0BA00B490EF /* DoctorRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoctorRegister.swift; sourceTree = "<group>"; };
+		ED66D55C95AFCE9B67C18A04 /* Pods_AsthmaAid.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AsthmaAid.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D567E262222FB970001677AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE20D37504501EE0E8A06E9E /* Pods_AsthmaAid.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1165A066E6B702B76E053EE8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8F2D268D0E90F80E0A4713B6 /* Pods-AsthmaAid.debug.xcconfig */,
+				9688FC56AE8566D311E37D0B /* Pods-AsthmaAid.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4196F138025D643E3EF1E5F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED66D55C95AFCE9B67C18A04 /* Pods_AsthmaAid.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D567E25C222FB970001677AC = {
+			isa = PBXGroup;
+			children = (
+				D567E267222FB970001677AC /* AsthmaAid */,
+				D567E266222FB970001677AC /* Products */,
+				1165A066E6B702B76E053EE8 /* Pods */,
+				4196F138025D643E3EF1E5F5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D567E266222FB970001677AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D567E265222FB970001677AC /* AsthmaAid.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D567E267222FB970001677AC /* AsthmaAid */ = {
+			isa = PBXGroup;
+			children = (
+				D567E268222FB970001677AC /* AppDelegate.swift */,
+				D56D47382238688700328F9C /* ViewControllers */,
+				D56D47392238689300328F9C /* UIHelperClasses */,
+				D567E26C222FB970001677AC /* Main.storyboard */,
+				D567E272222FB972001677AC /* Assets.xcassets */,
+				D567E274222FB972001677AC /* LaunchScreen.storyboard */,
+				D567E277222FB972001677AC /* Info.plist */,
+				D59D53F4223450FE0082250C /* GoogleService-Info.plist */,
+				D567E26F222FB970001677AC /* AsthmaAid.xcdatamodeld */,
+			);
+			path = AsthmaAid;
+			sourceTree = "<group>";
+		};
+		D56D47382238688700328F9C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				D56D473A223868D000328F9C /* OnLoad.swift */,
+				D5CED6DE223ACF0F00B490EF /* LoginDoctor.swift */,
+				D5CED6E2223AD0BA00B490EF /* DoctorRegister.swift */,
+				D5CED6E0223AD05200B490EF /* DoctorDashboard.swift */,
+				D56D473C2238821700328F9C /* LoginStudent.swift */,
+				D56D473E2238879100328F9C /* StudentRegister.swift */,
+				D53E3AB622375A04009D2A73 /* DataCaptureTest.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		D56D47392238689300328F9C /* UIHelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				D59D53F622347B7C0082250C /* Background.swift */,
+				D56D47342238669B00328F9C /* PrimaryButton.swift */,
+				D53E3AB422374E2B009D2A73 /* Constants.swift */,
+				D56D4736223867A100328F9C /* SecondaryButton.swift */,
+			);
+			path = UIHelperClasses;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D567E264222FB970001677AC /* AsthmaAid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D567E27A222FB972001677AC /* Build configuration list for PBXNativeTarget "AsthmaAid" */;
+			buildPhases = (
+				2E0A1C7F7B2B30C881870F8D /* [CP] Check Pods Manifest.lock */,
+				D567E261222FB970001677AC /* Sources */,
+				D567E262222FB970001677AC /* Frameworks */,
+				D567E263222FB970001677AC /* Resources */,
+				BEC315D1DFF55982B091FFAF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AsthmaAid;
+			productName = AsthmaAid;
+			productReference = D567E265222FB970001677AC /* AsthmaAid.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D567E25D222FB970001677AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Shashank Venkatramani";
+				TargetAttributes = {
+					D567E264222FB970001677AC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D567E260222FB970001677AC /* Build configuration list for PBXProject "AsthmaAid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D567E25C222FB970001677AC;
+			productRefGroup = D567E266222FB970001677AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D567E264222FB970001677AC /* AsthmaAid */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D567E263222FB970001677AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D567E276222FB972001677AC /* LaunchScreen.storyboard in Resources */,
+				D59D53F5223450FE0082250C /* GoogleService-Info.plist in Resources */,
+				D567E273222FB972001677AC /* Assets.xcassets in Resources */,
+				D567E26E222FB970001677AC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2E0A1C7F7B2B30C881870F8D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AsthmaAid-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BEC315D1DFF55982B091FFAF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AsthmaAid/Pods-AsthmaAid-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AsthmaAid/Pods-AsthmaAid-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D567E261222FB970001677AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D53E3AB722375A04009D2A73 /* DataCaptureTest.swift in Sources */,
+				D53E3AB522374E2B009D2A73 /* Constants.swift in Sources */,
+				D5CED6DF223ACF0F00B490EF /* LoginDoctor.swift in Sources */,
+				D5CED6E1223AD05200B490EF /* DoctorDashboard.swift in Sources */,
+				D56D473B223868D100328F9C /* OnLoad.swift in Sources */,
+				D567E271222FB970001677AC /* AsthmaAid.xcdatamodeld in Sources */,
+				D56D473D2238821700328F9C /* LoginStudent.swift in Sources */,
+				D56D4737223867A100328F9C /* SecondaryButton.swift in Sources */,
+				D56D47352238669B00328F9C /* PrimaryButton.swift in Sources */,
+				D567E269222FB970001677AC /* AppDelegate.swift in Sources */,
+				D56D473F2238879100328F9C /* StudentRegister.swift in Sources */,
+				D59D53F722347B7C0082250C /* Background.swift in Sources */,
+				D5CED6E3223AD0BA00B490EF /* DoctorRegister.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D567E26C222FB970001677AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D567E26D222FB970001677AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D567E274222FB972001677AC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D567E275222FB972001677AC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D567E278222FB972001677AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D567E279222FB972001677AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D567E27B222FB972001677AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F2D268D0E90F80E0A4713B6 /* Pods-AsthmaAid.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R484PGFUQ;
+				INFOPLIST_FILE = AsthmaAid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvenkatramani.AsthmaAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D567E27C222FB972001677AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9688FC56AE8566D311E37D0B /* Pods-AsthmaAid.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4R484PGFUQ;
+				INFOPLIST_FILE = AsthmaAid/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cvenkatramani.AsthmaAid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D567E260222FB970001677AC /* Build configuration list for PBXProject "AsthmaAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D567E278222FB972001677AC /* Debug */,
+				D567E279222FB972001677AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D567E27A222FB972001677AC /* Build configuration list for PBXNativeTarget "AsthmaAid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D567E27B222FB972001677AC /* Debug */,
+				D567E27C222FB972001677AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D567E26F222FB970001677AC /* AsthmaAid.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D567E270222FB970001677AC /* AsthmaAid.xcdatamodel */,
+			);
+			currentVersion = D567E270222FB970001677AC /* AsthmaAid.xcdatamodel */;
+			path = AsthmaAid.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D567E25D222FB970001677AC /* Project object */;
+}
