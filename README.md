@@ -2,6 +2,7 @@
 
 ## Asthma Aid
 **Grand Prize Student Award Recipients**
+
 *Asthma diagnosis and progression tracking through the use of non-intrusive wearable technology and respiratory analysis.*
 
 [Link to Engineering Notebook](docs/engineeringNotebook.pdf)
