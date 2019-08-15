@@ -21,7 +21,7 @@
 ## What is our implementation based off?
 - When people are having an asthma attack, they have certain breathing patterns which are central to our project. They inhale quickly and exhale slowly.
 - Normal breathing:
-- 
+
 <img src="docs/normalBreathing.png" width="500">
 
 - Asthmatic breathing:
@@ -34,13 +34,13 @@
 <img src="docs/dataProcessingPipelineVisualized.png" width="500">
 
 ## Software pipeline
-1. Data --> Parse the data set for the dataframes. Get the type of data, file sizes, read the data, and copy it into various dataframes.
-2. Params --> Gather hyperparameters passed in by the user. Adapt as needed and calculate other values based on these parameters.
-3. Starting --> Get the starting point of the breaths using a cluster removal algorithm and standard deviation measurements.
-4. Main Points --> Gather interesting points based on slope calculations. Remove clusters, similar values, false min/maxes, null values. 
-5. Segmentation --> At each minimum value, separate the data. Create individual segments for each breath, then discard end data.
-6. Plotting --> Plot the individual segments for visualization. Plot the overall graph of the entire section of breathing. Save to OS.
-7. Anomalies --> Detect anomalies, which is where the person takes a substantially longer time to exhale. Find anomalies, return locations, and plot.
+1. **Data** --> *Parse the data set for the dataframes. Get the type of data, file sizes, read the data, and copy it into various dataframes.*
+2. **Params** --> *Gather hyperparameters passed in by the user. Adapt as needed and calculate other values based on these parameters.*
+3. **Starting** --> *Get the starting point of the breaths using a cluster removal algorithm and standard deviation measurements.*
+4. **Main** **Points** --> *Gather interesting points based on slope calculations. Remove clusters, similar values, false min/maxes, null values. *
+5. **Segmentation** --> *At each minimum value, separate the data. Create individual segments for each breath, then discard end data.*
+6. **Plotting** --> *Plot the individual segments for visualization. Plot the overall graph of the entire section of breathing. Save to OS.*
+7. **Anomalies** --> *Detect anomalies, which is where the person takes a substantially longer time to exhale. Find anomalies, return locations, and plot.*
 
 ## How is the data measured?
 1. The data is measured every 10ms by the analog input in the arduino nano.
@@ -65,10 +65,6 @@
 <img src="docs/deviceImageAngle1.png" width="500">
 
 <img src="docs/deviceImageAngle2.png" width="500">
-
-
-## iOS app images
-
 
 **Grand Prize Student Award Recipients**
 
