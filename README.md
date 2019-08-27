@@ -72,19 +72,19 @@
 
 **Onloading View Screenshot**
 
-<img src="docs/homescreen.png" width="200">
+<img src="docs/homescreen.PNG" width="200">
 
 **Login View Screenshot**
 
-<img src="docs/loginscreen.png" width="200">
+<img src="docs/loginscreen.PNG" width="200">
 
 **Register View Screenshot**
 
-<img src="docs/registerscreen.png" width="200">
+<img src="docs/registerscreen.PNG" width="200">
 
 **Dashboard View Screenshot**
 
-<img src="docs/dashboardscreen.png" width="200">
+<img src="docs/dashboardscreen.PNG" width="200">
 
 ## Contributors
 - **Pranav Eranki** - Python / Notebook
