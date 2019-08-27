@@ -10,7 +10,7 @@
 ## Asthma?
 - Causes difficulty of breathing
 - Affects 20 million lives across all age ranges
-- Currently, the only way to track asthma is a peak flow meter . This requires the user to blow into the meter and manually track. 
+- Currently, the only way to track asthma is a peak flow meter . This requires the user to blow into the meter and manually track.
 
 ## Engineering goal
 - Design a passive, non-intrusive abdominal strap that:
@@ -68,6 +68,24 @@
 
 <img src="docs/deviceImageAngle2.png" width="500">
 
+## Application images
+
+**Onloading View Screenshot**
+
+<img src="docs/homescreen.png" width="200">
+
+**Login View Screenshot**
+
+<img src="docs/loginscreen.png" width="200">
+
+**Register View Screenshot**
+
+<img src="docs/registerscreen.png" width="200">
+
+**Dashboard View Screenshot**
+
+<img src="docs/dashboardscreen.png" width="200">
+
 ## Contributors
-- **Pranav Eranki** - Python / Notebook 
+- **Pranav Eranki** - Python / Notebook
 - **Shashank Venkatramani** - Hardware / iOS

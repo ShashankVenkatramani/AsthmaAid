@@ -29,7 +29,7 @@ class StudentRegister: UIViewController {
         let doctorID = doctorIdField!.text
         
         ref.child("doctors").observeSingleEvent(of: .value) { (snapshot) in
-            let doctorArray = snapshot.value as! NSMutableArray
+            let doctorArray = snapshot.value as! NSMutableDictionary
         }
         
         Auth.auth().createUser(withEmail: email!, password: password!) { (user, error) in
